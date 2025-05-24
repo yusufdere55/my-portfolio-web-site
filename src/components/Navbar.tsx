@@ -1,8 +1,8 @@
 export default function Navbar() {
     return(
-        <div className="flex border-b border-white/15 flex-row justify-between px-12 items-center h-16">
+        <div className="flex border-b border-white/15 flex-row justify-around items-center h-16">
             <div>
-                <h1 className="font-bold font-mono text-2xl">YuD3</h1>
+                <h1 className="font-bold font-mono text-2xl">&lt;YuD3/&gt;</h1>
             </div>
             <div className="flex flex-row gap-4">
                 <div className="font-mono font-semibold"><a href="#">Skills</a></div>
