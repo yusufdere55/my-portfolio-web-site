@@ -44,13 +44,16 @@ export default function Home() {
           <h2 className="font-sans font-extrabold text-5xl text-black/85 dark:text-white/85">My Tech Stack</h2>
           <div className="grid grid-cols-5 gap-12">
             {techStack.map((src,key) => (
-              <div key={key} className="bg-black/50 transition-all rounded p-4 duration-500 cursor-pointer hover:bg-black/20 dark:bg-white/10 hover:rotate-12 dark:hover:bg-white/20">
+              <div key={key} className="bg-white border hover:rotate-12 border-gray-200 shadow-sm transition-all rounded p-4 duration-500 cursor-pointer
+                 hover:bg-gray-100 hover:shadow-md
+                 dark:bg-white/10 dark:border-white/20 dark:hover:bg-white/20">
                 <Image src={src} draggable="false" width={55} height={55} alt="" />
               </div>
             ))}
           </div>
         </section>
         <section className="flex flex-col justify-center items-center py-4 gap-12">
+            
         </section>
       </div>
       <Footer />

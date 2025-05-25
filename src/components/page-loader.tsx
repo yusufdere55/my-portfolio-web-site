@@ -41,7 +41,7 @@ export default function PageLoader({ onFinish }: { onFinish: () => void }) {
 
   return (
     <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-white dark:bg-[#1f1e1e] transition-colors">
-      <div className="mb-6 text-lg font-semibold text-gray-700 dark:text-gray-200">
+      <div className="mb-3 text-xl font-bold text-gray-700 dark:text-gray-200">
         {loadingTexts[textIndex]}
       </div>
       <div className="w-64">
